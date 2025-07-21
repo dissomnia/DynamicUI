@@ -24,8 +24,20 @@ img {
     height: auto;
     margin-left: 20px;
 }
+.container {
+    display: flex;
+    flex: 1;
+}
 nav {
+    width: 200px;
     padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    margin: 10px 0;
 }
 main {
     flex: 1;
