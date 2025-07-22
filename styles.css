@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-header {
+.header {
     height: 200px;
     background-color: black;
     color: white;
@@ -15,10 +15,10 @@ header {
     align-items: center;
     padding: 0 20px;
 }
-h1 {
+.header__title {
     margin: 0;
 }
-img {
+.header__image {
     max-width: 200px;
     max-height: 100%;
     height: auto;
@@ -28,26 +28,35 @@ img {
     display: flex;
     flex: 1;
 }
-nav {
+.nav {
     width: 200px;
     padding: 10px;
 }
-nav ul {
+.nav__list {
     list-style-type: none;
     padding: 0;
 }
-nav li {
+.nav__item {
     margin: 10px 0;
 }
-main {
+.main {
     flex: 1;
     padding: 20px;
 }
-footer {
+.main__title {
+    margin-top: 0;
+}
+.main__description {
+    margin-top: 5px;
+}
+.main__info {
+    margin-top: 5px;
+}
+.footer {
     background-color: darkgrey;
     padding: 10px;
     text-align: center;
 }
-p {
-    margin-top: 5px;
+.footer__text {
+    margin: 0;
 }
