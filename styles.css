@@ -121,3 +121,24 @@ body {
         margin: 0;
     }
 }
+label[for="breed-select"] {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+#breed-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#breed-select:hover {}

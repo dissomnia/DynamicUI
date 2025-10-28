@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог пород собак</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="breeds.js"></script>
 </head>
 <body>
 <header class="header">
     <div class="header__content">
         <h1 class="header__title">Каталог пород собак</h1>
         <p class="header__description">Здесь вы найдете информацию о самых популярных породах.</p>
+        <label for="breed-select">Выбор породы</label>
+        <select id="breed-select">
+            <option value="">-- Выберите породу --</option>
+        </select>
     </div>
     <img class="header__image" src="https://solnet.ee/holidays/pic/s3_106_3.jpg" alt="Собаки">
 </header>
